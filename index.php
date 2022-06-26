@@ -1,7 +1,8 @@
 <?php
   /*include 'include/database.php';*/
   session_start();
-  $usuario = $_SESSION['usuario'];
+  $usuario = $_POST['usuario'];
+  /*$usuario = $_SESSION['usuario'];*/
 
 
 /*if (isset($_SESSION['user_id'])) {
