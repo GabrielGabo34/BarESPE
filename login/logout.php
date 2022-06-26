@@ -3,6 +3,6 @@
 
   session_destroy();
 
-  header('location: https://barespel.herokuapp.com/login.php');
+  header('location: https://barespel.herokuapp.com/login/login.php');
   exit();
 ?>
