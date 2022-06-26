@@ -2,7 +2,7 @@
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
-          <li><a href="../../Prueba/index.php" class="nav-link px-2 text-secondary">Home</a></li>
+          <li><a href="https://barespel.herokuapp.com/index.php" class="nav-link px-2 text-secondary">Home</a></li>
           <li><a href="https://barespel.herokuapp.com/views/bar.php" class="nav-link px-2 text-white">Bar</a></li>
           <li><a href="https://barespel.herokuapp.com/views/buzon.php" class="nav-link px-2 text-white">Buzón</a></li>
           <li><a href="https://barespel.herokuapp.com/views/campus.php" class="nav-link px-2 text-white">Campus</a></li>
