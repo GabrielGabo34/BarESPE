@@ -1,0 +1,90 @@
+Pegar en la base de datos
+
+/*==============================================================*/
+/* Table: bar                                                   */
+/*==============================================================*/
+create table bar
+(
+   cam_id               int ,
+   bar_id               int ,
+   bar_nombre           varchar(50) not null,
+   bar_abierto          bool,
+   primary key (bar_id)
+);
+
+/*==============================================================*/
+/* Table: buzon                                                 */
+/*==============================================================*/
+create table buzon
+(
+   bar_id               int ,
+   buz_id               int,
+   buz_fecha            date not null,
+   buz_descripcion      text not null,
+   primary key (buz_id)
+);
+
+/*==============================================================*/
+/* Table: campus                                                */
+/*==============================================================*/
+create table campus
+(
+   cam_id               int ,
+   cam_nombre           varchar(50) not null,
+   cam_direccion        varchar(80),
+   primary key (cam_id)
+);
+
+/*==============================================================*/
+/* Table: menu                                                  */
+/*==============================================================*/
+create table menu
+(
+   bar_id               int ,
+   men_id               int ,
+   men_nombre           varchar(50) not null,
+   men_precio           float,
+   men_disponible       bool not null,
+   men_descripcion      text,
+   primary key (men_id)
+);
+
+
+
+/*==============================================================*/
+/* Table: preferencias                                          */
+/*==============================================================*/
+create table preferencias
+(
+   men_id               int not null,
+   pre_id               int ,
+   pre_fecha            date not null,
+   pre_observacion      text,
+   primary key (pre_id)
+);
+
+/*==============================================================*/
+/* Table: snack                                                 */
+/*==============================================================*/
+create table snack
+(
+   bar_id               int not null,
+   sna_id               int ,
+   sna_nombre           varchar(50) not null,
+   sna_precio           float,
+   sna_disponible       bool not null,
+   primary key (sna_id)
+);
+
+/*==============================================================*/
+/* Table: usuario                                                 */
+/*==============================================================*/
+create table usuario
+(
+   user_id               int ,
+   
+   email           varchar(50) not null,
+   users         varchar(50) not null,
+	password   varchar(50) not null,
+   primary key (user_id)
+);
