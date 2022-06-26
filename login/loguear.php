@@ -1,5 +1,5 @@
 <?php
-    require '../../Prueba/include/database.php';
+    include_once '../../Prueba/include/database.php';
     session_start();
 
     $usuario = $_POST['usuario'];

@@ -40,9 +40,9 @@
 <body>
   <?php require '../partials/header.php' ?>
 
-  <?php if (!empty($message)) : ?>
+  <?php /*if (!empty($message)) : ?>
     <p> <?= $message ?></p>
-  <?php endif; ?>
+  <?php endif; */?>
   <br><br><br><br><br><br><br>
   <h1>Iniciar Sesión</h1>
 
