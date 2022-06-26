@@ -50,7 +50,7 @@
 <body>
   <?php 
     if(!isset($usuario)){
-      header("location: login/login.php");
+      header("location: https://barespel.herokuapp.com/login/login.php");
     }else{
       require 'partials/header.php';
       echo "<br><br><br><br><br><br><br><br><br><br><br>

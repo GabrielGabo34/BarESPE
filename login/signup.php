@@ -48,7 +48,7 @@
   <br><br><br><br>
   <h1>Crear cuenta nueva</h1>
 
-  <form action="../../Prueba/login/login.php" method="POST">
+  <form action="https://barespel.herokuapp.com/login/login.php" method="POST">
     <input name="email" type="text" placeholder="Ingresa tu email">
     <input name="user" type="text" placeholder="Ingresa tu usuario">
     <input name="password" type="password" placeholder="Ingresa tu contraseña">

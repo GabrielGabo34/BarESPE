@@ -11,7 +11,7 @@
 
     if($array['contar']>0){
         $_SESSION['usuario'] = $usuario;
-        header("location: ../index.php");
+        header("location: https://barespel.herokuapp.com/index.php");
     }else{
         echo "DATOS INCORRECTOS";
     }
