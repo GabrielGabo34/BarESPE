@@ -48,7 +48,7 @@
 
   <form action="https://barespel.herokuapp.com/login/loguear.php" method="POST">
     <input type="text" name="usuario" placeholder="Ingrese su usuario">
-    <input type="password" name="contrasenia" placeholder="Ingrese su contraseña">
+    <input type="text" name="contrasenia" placeholder="Ingrese su contraseña">
     <input type="submit" value="Ingresar">
   </form>
 </body>
