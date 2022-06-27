@@ -9,12 +9,10 @@
           <li><a href="https://barespel.herokuapp.com/views/menu.php" class="nav-link px-2 text-white">Menú</a></li>
           <li><a href="https://barespel.herokuapp.com/views/preferencias.php" class="nav-link px-2 text-white">Preferencias</a></li>
           <li><a href="https://barespel.herokuapp.com/views/snack.php" class="nav-link px-2 text-white">Snack</a></li>
-          <li><a href="https://barespel.herokuapp.com/login/logout.php" class="nav-link px-2 text-white">Salir</a></li>
         </ul>
 
         <div class="text-end">
-          <a type="button" href="https://barespel.herokuapp.com/login/login.php" class="btn btn-outline-light me-2">Iniciar Sesión</a>
-          <a type="button" href="https://barespel.herokuapp.com/login/signup.php" class="btn btn-info">Crear cuenta nueva</a>
+          <a type="button" href="https://barespel.herokuapp.com/login/logout.php" class="btn btn-info">Salir</a>
         </div>
       </div>
     </div>
