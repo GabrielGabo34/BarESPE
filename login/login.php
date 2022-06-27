@@ -38,7 +38,7 @@
 </style>
 
 <body>
-  <?php require '../partials/header.php' ?>
+  <?php /*require '../partials/header.php'*/ ?>
 
   <?php /*if (!empty($message)) : ?>
     <p> <?= $message ?></p>
