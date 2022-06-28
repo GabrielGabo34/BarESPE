@@ -38,11 +38,18 @@
 </style>
 
 <body>
-  <?php /*require '../partials/header.php'*/ ?>
+  <?php 
+    if(isset($_GET['error'])){
+      $error = $_GET['error'];
+      if ($error = "incorrecto") {
+        echo "<h2>El usuario y/o contraseña no son correctos</h2>";
+      }
+      if ($error = "vacio"){
+        echo "<h2>Los datos enviados se encuentran vacíos</h2>";
+      }
+    }
+  ?>
 
-  <?php /*if (!empty($message)) : ?>
-    <p> <?= $message ?></p>
-  <?php endif; */?>
   <br><br><br><br><br><br><br>
   <h1>Iniciar Sesión</h1>
 
